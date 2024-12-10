@@ -1,9 +1,7 @@
 import io
 import json
 import logging
-
 from fdk import response
-
 
 def handler(ctx, data: io.BytesIO=None):
     name = "World"
